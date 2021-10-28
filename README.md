@@ -1,6 +1,6 @@
-# Template for Jupyter Notebook instance with Docker for NLP4Web and FoLT
+# Template for Jupyter instance with Docker for NLP4Web and FoLT
 
-Template for the Jupyter instances for the lectures of NLP4Web and FoLT of TU Darmstadt with Docker.
+Template for the Jupyter instances for the lectures _NLP4Web_ and _FoLT_ of TU Darmstadt with Docker.
 
 - [Requirements](#requirements)
 - [Usage](#usage)
@@ -32,7 +32,7 @@ For this, the [Dockerfile](Dockerfile) must be edited.
 
 **NLP4Web**
 
-If you use this template for NLP4Web, comment
+If you use this template for _NLP4Web_, comment
 
 ```
 # RUN pip3 install -r requirements_folt.txt
@@ -46,7 +46,7 @@ RUN pip3 install -r requirements_nlp4web.txt
 
 **FoLT**
 
-If you use this template for FoLT, comment out
+If you use this template for _FoLT_, comment out
 
 ```
 RUN pip3 install -r requirements_folt.txt
@@ -62,7 +62,7 @@ and comment
 
 **Jupyer-Lab**
 
-If you want to use Jupyter-Lab (default and recommend), comment out
+If you want to use _Jupyter-Lab_ (default and recommend), comment out
 
 ```
 CMD ["jupyter-lab", "--notebook-dir=/mnt/notebook", "--allow-root", "--no-browser", "--ip=*", "--port=8080", "--NotebookApp.token=''", "--NotebookApp.password=''"]
@@ -76,7 +76,7 @@ and comment
 
 **Jupyter-Notebook**
 
-If you want to use Jupyter-Notebook, comment
+If you want to use _Jupyter-Notebook_, comment
 
 ```
 # CMD ["jupyter-lab", "--notebook-dir=/mnt/notebook", "--allow-root", "--no-browser", "--ip=*", "--port=8080", "--NotebookApp.token=''", "--NotebookApp.password=''"]
