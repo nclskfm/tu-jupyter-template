@@ -35,7 +35,7 @@ For this, the [Dockerfile](Dockerfile) must be edited.
 If you use this template for _NLP4Web_, comment
 
 ```
-# RUN pip3 install -r requirements_folt.txt
+# RUN pip3 install -r requirements_folt.txt && python -m nltk.downloader all
 ```
 
 and comment out
@@ -49,7 +49,7 @@ RUN pip3 install -r requirements_nlp4web.txt
 If you use this template for _FoLT_, comment out
 
 ```
-RUN pip3 install -r requirements_folt.txt
+RUN pip3 install -r requirements_folt.txt && python -m nltk.downloader all
 ```
 
 and comment
