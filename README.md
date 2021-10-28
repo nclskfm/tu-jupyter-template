@@ -32,7 +32,7 @@ For this, the [Dockerfile](Dockerfile) must be edited.
 
 **NLP4Web**
 
-If you use this template for FoLT, comment
+If you use this template for NLP4Web, comment
 
 ```
 # RUN pip3 install -r requirements_folt.txt
